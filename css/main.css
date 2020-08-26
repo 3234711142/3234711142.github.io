@@ -1,3 +1,9 @@
+* {
+  cursor: url("/images/default.cur"), auto !important;
+}
+a:hover {
+  cursor: url("/images/pointer.cur"), auto !important;
+}
 :root {
   --body-bg-color: #fff;
   --content-bg-color: #fff;
@@ -1168,7 +1174,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #50ff44;
+  background: #54c714;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
