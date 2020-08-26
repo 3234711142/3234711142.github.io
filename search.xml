@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>博客建设告一段落啦</title>
-    <url>/2020/08/26/0/</url>
-    <content><![CDATA[<p>我选择使用了<a href="https://hexo.io/">Hexo</a>+<a href="https://muse.theme-next.org/">NexT</a>搭建博客。其中借鉴了<a href="https://www.itrhx.com/">TRHX</a>的搭建历程，非常感谢分享(<em>^▽^</em>)。</p>
-<a id="more"></a>
-
-<p><img src="/images/BlogPicture.JPG" alt="Blog Picture"></p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Hello World——第一篇博客，留作纪念</title>
     <url>/2020/08/25/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -30,6 +18,18 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>博客建设告一段落啦</title>
+    <url>/2020/08/26/0/</url>
+    <content><![CDATA[<p>我选择使用了<a href="https://hexo.io/">Hexo</a>+<a href="https://muse.theme-next.org/">NexT</a>搭建博客。其中借鉴了<a href="https://www.itrhx.com/">TRHX</a>的搭建历程，非常感谢分享(<em>^▽^</em>)。</p>
+<a id="more"></a>
+
+<p><img src="/images/BlogPicture.JPG" alt="Blog Picture"></p>
 ]]></content>
       <categories>
         <category>Hexo</category>
