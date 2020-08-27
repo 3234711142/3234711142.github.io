@@ -1,6 +1,19 @@
 * {
   cursor: url("/images/default.cur"), auto !important;
 }
+#right-menu {
+  position: absolute;
+  box-shadow: 5px 5px 5px #ccc;
+}
+.menu-item {
+  height: 25px;
+  margin: 4px 0;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.menu-item:hover {
+  cursor: url("/images/pointer.cur"), auto !important;
+}
 :root {
   --body-bg-color: #fff;
   --content-bg-color: #fff;
@@ -1171,7 +1184,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #bbffc3;
+  background: #377774;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
