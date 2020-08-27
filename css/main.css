@@ -1,15 +1,6 @@
 * {
   cursor: url("/images/default.cur"), auto !important;
 }
-.github-corner svg {
-  border: 0;
-  color: #fff;
-  fill: #222;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 1000;
-}
 #right-menu {
   position: absolute;
   box-shadow: 5px 5px 5px #ccc;
@@ -1260,7 +1251,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #c9669a;
+  background: #c4e9ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
