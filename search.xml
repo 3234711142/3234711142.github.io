@@ -3,10 +3,30 @@
   <entry>
     <title>世界你好！</title>
     <url>/2020/08/26/1/</url>
-    <content><![CDATA[<p>这是自动生成的第一个日志~~我终于搭建好博客啦！</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这是自动生成的第一个日志~~我终于搭建好博客啦！</p>
 ]]></content>
       <categories>
         <category>Hexo</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>私藏歌单分享</title>
+    <url>/2020/08/27/2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这是我在网易云上私藏的歌单，拿来与大家分享哦(<em>^▽^</em>)</p>
+
+<iframe frameborder="no" border="0" padding= "0" marginwidth="0" marginheight="0" width=660 height=75 src="//music.163.com/outchain/player?type=2&id=1407268967&height=66"></iframe>
+<iframe frameborder="no" border="0" padding= "0" marginwidth="0" marginheight="0" width=660 height=75 src="//music.163.com/outchain/player?type=2&id=1369633402&height=66"></iframe>
+<iframe frameborder="no" border="0" padding= "0" marginwidth="0" marginheight="0" width=660 height=75 src="//music.163.com/outchain/player?type=2&id=19542337&height=66"></iframe>
+<a id="more"></a>
+<iframe frameborder="no" border="0" padding= "0" marginwidth="0" marginheight="0" width=660 height=75 src="//music.163.com/outchain/player?type=2&id=31654455&height=66"></iframe>
+<iframe frameborder="no" border="0" padding= "0" marginwidth="0" marginheight="0" width=660 height=75 src="//music.163.com/outchain/player?type=2&id=1431767738&height=66"></iframe>
+<iframe frameborder="no" border="0" padding= "0" marginwidth="0" marginheight="0" width=660 height=75 src="//music.163.com/outchain/player?type=2&id=1326987219&height=66"></iframe>
+<iframe frameborder="no" border="0" padding= "0" marginwidth="0" marginheight="0" width=660 height=75 src="//music.163.com/outchain/player?type=2&id=2918954&height=66"></iframe>
+<iframe frameborder="no" border="0" padding= "0" marginwidth="0" marginheight="0" width=660 height=75 src="//music.163.com/outchain/player?type=2&id=1345018&height=66"></iframe>
+<iframe frameborder="no" border="0" padding= "0" marginwidth="0" marginheight="0" width=660 height=75 src="//music.163.com/outchain/player?type=2&id=30064263&height=66"></iframe>
+]]></content>
+      <categories>
+        <category>Music</category>
       </categories>
   </entry>
 </search>
