@@ -85,7 +85,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" >
+<body itemscope itemtype="http://schema.org/WebPage" style="overflow:auto">
   
   <div class="container use-motion">
     <div class="headband"></div>
@@ -457,11 +457,10 @@
 </script>
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
-  <div id="right-menu">分享:<img src="//api.qrserver.com/v1/create-qr-code/?data=" width=100px height=100px/></div>
-  <script type="text/javascript">
-      window.oncontextmenu = function (e) {e.preventDefault();var menu = document.getElementById("right-menu");menu.style.display = "block";menu.style.left = e.clientX + "px";menu.style.top = e.clientY + "px";}
-      window.onclick = function (e) {var menu = document.getElementById("right-menu");menu.style.display = "none";}
-  </script>
+  <div id="menu-item">分享:<img src="//api.qrserver.com/v1/create-qr-code/?data=" width=100px height=100px/></div>
+<script>
+    window.onload = function () {var menu = document.getElementById('menu-item'); document.body.oncontextmenu = function (e) { var e = e || window.event; e.preventDefault(); let scrollTop = document.documentElement.scrollTop || document.body.scrollTop; let scrollLeft = document.documentElement.scrollLeft || document.body.scrollLeft; menu.style.display = 'block'; menu.style.left = e.clientX + scrollLeft + 'px'; menu.style.top = e.clientY + scrollTop + 'px'; };document.onclick = function(){ menu.style.display = 'none';}}
+</script>
   <script type='text/javascript'>
     function addLink() {var body_element = document.getElementsByTagName('body')[0];var selection;selection = window.getSelection();var pagelink = "<br /><br /> ——转载自: <a href='"+document.location.href+"'>"+document.location.href+"</a>"; var copy_text = selection + pagelink;var new_div = document.createElement('div');new_div.style.left='-99999px';new_div.style.position='absolute';body_element.appendChild(new_div );new_div.innerHTML = copy_text ;selection.selectAllChildren(new_div );window.setTimeout(function() {body_element.removeChild(new_div );},0);}
     document.oncopy = addLink;
