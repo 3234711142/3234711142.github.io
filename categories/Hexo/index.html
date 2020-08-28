@@ -458,12 +458,35 @@
 </script>
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
-      <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"p_w_picpath":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"24"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?v=89860593.js?'];</script>
+      <script>with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?v=89860593.js?'];
+      window._bd_share_config = {
+                  "common" : {
+                   "bdText" : '这是分享的标题',
+                   "bdComment" : '我是通用分享设置,会出现在发送给QQ好友里的描述',
+                   "bdPic" : "http://test.miniwangdai.com/public/images/invite/wechat.png",//分享的图像地址
+                   "bdStyle" : "0",//按钮样式
+                   "bdSize" : "32",//按钮大小
+                   "bdUrl" : 'https://www.baidu.com',//分享的地址
+                   "bdDesc":'给你的好友留一句话吧',
+                  },
+                  "share" : {},
+                };
+      </script>
   <div id="right-menu"><a href="mailto://3234711142@qq.com"><div class="menu-item">联系作者</div></a></div>
   <script type="text/javascript">
       window.oncontextmenu = function (e) {e.preventDefault();var menu = document.getElementById("right-menu");menu.style.display = "block";menu.style.left = e.clientX + "px";menu.style.top = e.clientY + "px";}
       window.onclick = function (e) {var menu = document.getElementById("right-menu");menu.style.display = "none";}
   </script>
+  <div class="bdsharebuttonbox" data-tag="share_1">
+	<a class="bds_mshare" data-cmd="mshare"></a>
+	<a class="bds_qzone" data-cmd="qzone" href="#"></a>
+	<a class="bds_tsina" data-cmd="tsina"></a>
+	<a class="bds_baidu" data-cmd="baidu"></a>
+	<a class="bds_renren" data-cmd="renren"></a>
+	<a class="bds_tqq" data-cmd="tqq"></a>
+	<a class="bds_more" data-cmd="more">更多</a>
+	<a class="bds_count" data-cmd="count"></a>
+</div>
   <script type='text/javascript'>
     function addLink() {var body_element = document.getElementsByTagName('body')[0];var selection;selection = window.getSelection();var pagelink = "<br /><br /> ——转载自: <a href='"+document.location.href+"'>"+document.location.href+"</a>"; var copy_text = selection + pagelink;var new_div = document.createElement('div');new_div.style.left='-99999px';new_div.style.position='absolute';body_element.appendChild(new_div );new_div.innerHTML = copy_text ;selection.selectAllChildren(new_div );window.setTimeout(function() {body_element.removeChild(new_div );},0);}
     document.oncopy = addLink;
