@@ -462,10 +462,18 @@
 </script>
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
-  <div id="menu-item"><a src="" id="menu-src-weibo" >分享到微博</a></div>
+  <div id="menu-item">
+  <a href="" id="menu-src-weibo" target="_blank"><img src="/img/weibo-logo.JPG" /></a>
+  <a href="" id="menu-src-qqspace" target="_blank"><img src="/img/qqspace-logo.JPG" /></a>
+  <a href="" id="menu-src-douban" target="_blank"><img src="/img/douban-logo.JPG" /></a>
+  </div>
+<script>
+document.getElementById("menu-src-weibo").href="http://service.weibo.com/share/share.php?url=https://3234711142.github.io" + "/archives/2020/08/index.html" + "&title=" + "秋月澈晓の博客——" + "";
+document.getElementById("menu-src-qqspace").href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://3234711142.github.io" + "/archives/2020/08/index.html" + "&title=" + "秋月澈晓の博客——" + "";
+document.getElementById("menu-src-douban").href="http://shuo.douban.com/!service/share?href=https://3234711142.github.io" + "/archives/2020/08/index.html" + "&name=" + "秋月澈晓の博客——" + "";
+</script>
 <script>
 window.onload = function () {var menu = document.getElementById('menu-item'); document.body.oncontextmenu = function (e) { var e = e || window.event; e.preventDefault(); let scrollTop = document.documentElement.scrollTop || document.body.scrollTop; let scrollLeft = document.documentElement.scrollLeft || document.body.scrollLeft; menu.style.display = 'block'; menu.style.left = e.clientX + scrollLeft + 'px'; menu.style.top = e.clientY + scrollTop + 'px'; };document.onclick = function(){ menu.style.display = 'none';}}
-document.getElementById("menu-src-weibo").src = "http://service.weibo.com/share/share.php?url="+ "&title=";
 </script>
   <script type='text/javascript'>
     function addLink() {var body_element = document.getElementsByTagName('body')[0];var selection;selection = window.getSelection();var pagelink = "<br /><br /> ——转载自: <a href='"+document.location.href+"'>"+document.location.href+"</a>"; var copy_text = selection + pagelink;var new_div = document.createElement('div');new_div.style.left='-99999px';new_div.style.position='absolute';body_element.appendChild(new_div );new_div.innerHTML = copy_text ;selection.selectAllChildren(new_div );window.setTimeout(function() {body_element.removeChild(new_div );},0);}
