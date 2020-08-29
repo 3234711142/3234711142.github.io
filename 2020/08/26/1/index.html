@@ -507,7 +507,7 @@
   <div id="menu-item"></div>
 <script>
 window.onload = function () {var menu = document.getElementById('menu-item'); document.body.oncontextmenu = function (e) { var e = e || window.event; e.preventDefault(); let scrollTop = document.documentElement.scrollTop || document.body.scrollTop; let scrollLeft = document.documentElement.scrollLeft || document.body.scrollLeft; menu.style.display = 'block'; menu.style.left = e.clientX + scrollLeft + 'px'; menu.style.top = e.clientY + scrollTop + 'px'; };document.onclick = function(){ menu.style.display = 'none';}}
-document.getElementById("menu-item").innerHTML = "<a src=" + "http://3234711142.github.io/2020/08/26/1/" + ">秋月澈晓の博客</a>";
+document.getElementById("menu-item").innerHTML = "http://service.weibo.com/share/share.php?url=" + "http://3234711142.github.io/2020/08/26/1/" + "&title=" + "世界你好！";
 </script>
   <script type='text/javascript'>
     function addLink() {var body_element = document.getElementsByTagName('body')[0];var selection;selection = window.getSelection();var pagelink = "<br /><br /> ——转载自: <a href='"+document.location.href+"'>"+document.location.href+"</a>"; var copy_text = selection + pagelink;var new_div = document.createElement('div');new_div.style.left='-99999px';new_div.style.position='absolute';body_element.appendChild(new_div );new_div.innerHTML = copy_text ;selection.selectAllChildren(new_div );window.setTimeout(function() {body_element.removeChild(new_div );},0);}
