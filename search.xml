@@ -45,6 +45,17 @@
       </categories>
   </entry>
   <entry>
+    <title>自制的音乐搜索网页</title>
+    <url>/2020/09/05/3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我最近编写了一个可以搜索音乐的网页，能搜得到大部分音乐，细节还不不够完美，不过大家可以先试试啦！</p>
+<a id="more"></a>
+
+<iframe src="/html/music/index.html"></iframe>]]></content>
+      <categories>
+        <category>Music</category>
+      </categories>
+  </entry>
+  <entry>
     <title>世界你好！</title>
     <url>/2020/09/04/1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这是自动生成的第一个日志~~我终于搭建好博客啦！</p>
