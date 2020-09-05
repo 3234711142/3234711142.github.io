@@ -69,7 +69,7 @@
                         $['get']("/html/music/php.php?name=" + encodeURIComponent(window["document"]['getElementById']("name")['value']) + "&number=" + window["document"]['getElementById']("number")['value'], function (data, b1) {
                             var VZllfqK_D2 = window["document"]['getElementById']("number")['value'];
                             if (b1 == "success") {
-                                var TEcN3 = JSON['parse'](data);
+                                var TEcN3 = JSON.parse(data);
                                 alert("12");
                                 for (i = 0; i < VZllfqK_D2; i++) {
                                     $("tbody")['append']("<tr onclick=\"document.getElementById('audio').src ='" + TEcN3['result'][i]['URL'] + "'\"><td>" + TEcN3['result'][i]['NAME'] + "</td><td class='text-right'>" + TEcN3['result'][i]['ARTIST'] + "----《" + TEcN3['result'][i]['ALBUM'] + "》</td></tr>")
