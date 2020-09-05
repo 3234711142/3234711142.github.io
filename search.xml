@@ -10,6 +10,18 @@
       </categories>
   </entry>
   <entry>
+    <title>自制的音乐搜索网页</title>
+    <url>/2020/09/05/3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我最近编写了一个可以搜索音乐的网页，能搜到大部分音乐，细节还不够完美，不过大家可以先试试啦！</p>
+<a id="more"></a>
+
+<iframe src="/html/music/index.html" width="100%" height="570px" scrolling="no" frameborder="0"></iframe>
+]]></content>
+      <categories>
+        <category>Music</category>
+      </categories>
+  </entry>
+  <entry>
     <title>使用Hexo在Github上搭建博客</title>
     <url>/2020/09/04/2/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我在初接触 github 时就有过搭建博客的想法，现在我终于下定决心行动啦！作为小白的我，在搭建时碰到了一些问题，参考了许多网上的教程，现在终于初步成型了。我整理了一下搭建过程，希望能对其他正在摸索中的伙伴们有所帮助。</p>
@@ -51,18 +63,6 @@
 ]]></content>
       <categories>
         <category>Hexo</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>自制的音乐搜索网页</title>
-    <url>/2020/09/05/3/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我最近编写了一个可以搜索音乐的网页，能搜到大部分音乐，细节还不够完美，不过大家可以先试试啦！</p>
-<a id="more"></a>
-
-<iframe src="/html/music/index.html" width="100%" height="570px" scrolling="no" frameborder="0"></iframe>
-]]></content>
-      <categories>
-        <category>Music</category>
       </categories>
   </entry>
 </search>
