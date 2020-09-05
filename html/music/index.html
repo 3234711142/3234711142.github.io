@@ -74,7 +74,7 @@
                             if (b1 == "success") {
                                 alert("1");
                                 alert(data);
-                                TEcN3 = JSON.parse(data);
+                                var TEcN3 = JSON.parse(data);
                                 alert("12");
                                 for (i = 0; i < VZllfqK_D2; i++) {
                                     $("tbody")['append']("<tr onclick=\"document.getElementById('audio').src ='" + TEcN3['result'][i]['URL'] + "'\"><td>" + TEcN3['result'][i]['NAME'] + "</td><td class='text-right'>" + TEcN3['result'][i]['ARTIST'] + "----《" + TEcN3['result'][i]['ALBUM'] + "》</td></tr>")
